@@ -71,7 +71,7 @@ export default function Indexisland() {
   }, []);
 
   return (
-    <div class="flex justify-center items-center h-screen bg-grape-light">
+    <div class="flex justify-center items-center bg-grape-light">
       {/* グミ袋のベース */}
       <div class="relative bg-white w-[300px] h-[400px] rounded-lg shadow-lg">
         {/* スライド部分 */}
