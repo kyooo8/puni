@@ -1,0 +1,42 @@
+{
+  "users": [
+    { "id": 1, "name": "kyosuke" }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "gummy_id": 1,
+      "flavor_id": 1,
+      "why": "勉強のお供",
+      "eat_at": "2025-01-25 18:40:39.771162+00"
+    }
+  ],
+  "gummys": [
+    {
+      "id": 1,
+      "name": "果汁グミ",
+      "company": "meiji",
+      "flavors_id": [1],
+      "selled_at": "1988年",
+      "status": {
+        "硬さ": 3,
+        "甘さ": 5,
+        "酸っぱさ": 2,
+        "大きさ": 4,
+        "カロリー": 3
+      }
+    },
+    {
+      "id": 2,
+      "name": "フィットチーネグミ",
+      "company": "ブルボン",
+      "flavors_id": [1, 2],
+      "selled_at": "ブルボン"
+    }
+  ],
+  "flavors": [
+    { "id": 1, "ja": "グレープ", "en": "grape" },
+    { "id": 2, "ja": "コーラ", "en": "cola" }
+  ]
+}
